@@ -1,0 +1,24 @@
+{
+  "name": "genpark-wispr-flow-voice-summarizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Wispr Flow rapid voice summary compiler.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "voice",
+    "dictation",
+    "wispr"
+  ],
+  "inputs": {
+    "raw_transcript": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "structured_summary": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
